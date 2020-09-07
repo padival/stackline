@@ -195,8 +195,8 @@ class App extends Component {
               ))}
 
             </ul>
-            <h5>OVERVIEW</h5>
-            <h5>SALES</h5>
+            <h5 class="fa fa-home"> OVERVIEW</h5>
+            <h5 class="fa fa-bar-chart"> SALES</h5>
           </nav>
           <article>
             <div id="graph">

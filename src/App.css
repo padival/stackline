@@ -7,7 +7,6 @@ body {
   font-family: Lucida Console, Monaco, monospace;
   
 }
-
 /* Style the header */
 .header {
   overflow: hidden;
@@ -46,6 +45,7 @@ h4{
 #graph{
   border: 2px solid #dddddd;
   background-color: white;
+  width: 100%
 }
 
 nav {
