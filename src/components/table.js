@@ -18,10 +18,10 @@ export default class Header extends Component {
             {this.props.table.map((table) => (
               <tr className="item">
                 <td>{table.weekEnding}</td>
-                <td>{table.retailSales}</td>
-                <td>{table.wholesaleSales}</td>
+                <td>${table.retailSales.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+                <td>${table.wholesaleSales.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
                 <td>{table.unitsSold}</td>
-                <td>{table.retailerMargin}</td>
+                <td>${table.retailerMargin.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
               </tr>
 
             ))}

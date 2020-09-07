@@ -8,6 +8,7 @@ body {
   
 }
 /* Style the header */
+
 .header {
   overflow: hidden;
   padding: 10px 10px;
@@ -100,7 +101,7 @@ article {
   height: 100%; /* only for demonstration, should be removed */
 }
 table {
-  font-family: Lucida Console, Monaco, monospace;
+  font-family:  Monaco, monospace;
   border-collapse: collapse;
   width: 100%;
   margin-top: 30px;
@@ -114,7 +115,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #555688;
+  background-color: whitesmoke;
 }
 
 /* Clear floats after the columns */

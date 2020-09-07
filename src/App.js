@@ -127,7 +127,6 @@ class App extends Component {
   render() {
     const options = {
       animationEnabled: true,
-
       toolTip: {
         shared: true
       },
